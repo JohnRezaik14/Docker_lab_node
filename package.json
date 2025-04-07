@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_app",
+  "version": "1.0.0",
+  "description": "node app for docker lab",
+  "main": "app.js",
+  "scripts": {
+    "test": "testApp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnRezaik14/Docker_lab_node.git"
+  },
+  "author": "John Rezaik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnRezaik14/Docker_lab_node/issues"
+  },
+  "homepage": "https://github.com/JohnRezaik14/Docker_lab_node#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
