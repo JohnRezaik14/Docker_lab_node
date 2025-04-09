@@ -16,6 +16,9 @@ app.post("/", (req, res) => {
   console.log(req);
   res.send({ message: "post request on main recived" });
 });
+app.get("/about", (req, res) => {
+  res.send(<center>About page</center>);
+});
 // Start the server
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
