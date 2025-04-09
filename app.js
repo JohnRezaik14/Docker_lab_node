@@ -14,6 +14,7 @@ app.get("/", (req, res) => {
 });
 app.post("/", (req, res) => {
   console.log(req);
+  res.send({ message: "post request on main recived" });
 });
 // Start the server
 app.listen(port, () => {
