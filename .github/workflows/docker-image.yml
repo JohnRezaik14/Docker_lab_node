@@ -29,4 +29,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: node_docker_lab:latest
+        tags: johnshahin14/node_docker_lab:latest
