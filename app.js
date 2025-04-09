@@ -12,7 +12,10 @@ app.get("/", (req, res) => {
     `<center style="font-weight;font-weight: 600;font-size: 2rem;font-family: cursive;">Hi from Node</center>`
   );
 });
-
+app.post("/", (req, res) => {
+  console.log(req);
+  res.send({ message: "post request on main recived" });
+});
 // Start the server
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
