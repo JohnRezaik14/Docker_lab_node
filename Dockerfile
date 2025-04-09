@@ -1,5 +1,5 @@
 #my node version
-FROM node:22.1.0
+FROM node:22-alpine
 
 #WORKDIR
 WORKDIR /usr/src/app
