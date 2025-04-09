@@ -29,4 +29,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/node_docker_lab:latest
+          tags: node_docker_lab:latest
